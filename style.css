@@ -31,4 +31,33 @@ border-radius: 5%;
     border-radius: 8%;
     padding: 10px 20px;
 }
-
+h4{
+    font-size: 20px;
+}
+.Divide{
+    box-shadow: 20px 20px 60px gray;
+    width: 40%;
+    margin-right: 5%;
+    margin-left: 5%;
+    padding-left: 10px;
+    border-radius: 10px;
+    border-left: 100px gray;
+    
+}
+#half1{
+    border-left: 10px solid;
+    border-image: linear-gradient(purple, blue);
+      border-image-slice: 1; 
+    
+}
+#half2{
+    border-left: 10px solid;
+    border-image: linear-gradient(purple, red);
+    border-image-slice: 1; 
+}
+.align{
+    text-align: center;
+}
+footer{
+    text-align: center;
+}
